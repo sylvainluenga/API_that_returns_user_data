@@ -12,6 +12,7 @@ fetch("./resultData.json")
     console.log(err);
   });
 
+
 function appendData(data) {
     // Put the HTML IDs in Variables
     var name = document.getElementById("name");
